@@ -1,0 +1,47 @@
+<!Doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type"  content="text-html; charset=utf-8"/>
+<title>Java script prac</title>
+<script>
+function changeimage(){
+document.getElementById("image bird").src ="http://www.outgrabe.net/bird00.jpg";
+document.getElementById("image bird").alt ="Pardalote by fir0002 (CC-by-NC)"
+document.getElementById("photographer").innerText="Pardalote by fir0002 (CC-by-NC)"
+}
+function changeimage1(){
+document.getElementById("image bird").src ="http://www.outgrabe.net/bird01.jpg";
+document.getElementById("image bird").alt ="Purple swamp Hen by Toby Hudson (CC-by-SA)"
+document.getElementById("photographer").innerText="Purple swamp Hen by Toby Hudson (CC-by-SA)"
+}
+function changeimage2(){
+document.getElementById("image bird").src ="http://www.outgrabe.net/bird02.jpg";
+document.getElementById("image bird").alt ="White-headed Stilt by JJ Harrison (CC-by-SA)"
+document.getElementById("photographer").innerText="White-headed Stilt by JJ Harrison (CC-by-SA)"
+}
+function changeimage3(){
+document.getElementById("image bird").src ="http://www.outgrabe.net/bird03.jpg";
+document.getElementById("image bird").alt ="Inland Thornbill by Peter Jacobs (CC-by-SA)"
+document.getElementById("photographer").innerText="Inland Thornbill by Peter Jacobs (CC-by-SA)"
+}
+function changeimage4(){
+document.getElementById("image bird").src ="http://www.outgrabe.net/bird04.jpg";
+document.getElementById("image bird").alt ="Rose Robin by JJ Harrison (CC-by-SA)"
+document.getElementById("photographer").innerText="Rose Robin by JJ Harrison (CC-by-SA)"
+}
+
+</script>
+</head>
+<figure>
+<body>
+<img src="http://www.outgrabe.net/bird00.jpg" id="image bird" 
+alt="Pardalote by fir0002 (CC-by-NC)"/>
+<p id="photographer">Pardalote by fir0002 (CC-by-NC)</p>
+<input type="button" value="Pardalote" onclick="changeimage()"/>
+<input type="button" value="Purple Swamp Hen" onclick="changeimage1()"/>
+<input type="button" value="White-headed stilt" onclick="changeimage2()"/>
+<input type="button" value="Inland Thornbill" onclick="changeimage3()"/>
+<input type="button" value="Rose Robin" onclick="changeimage4()"/>
+</figure>
+</body>    
+</html>
